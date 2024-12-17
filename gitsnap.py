@@ -693,7 +693,7 @@ if __name__ == '__main__':
     sub_parser = sub_parsers.add_parser('push',
             help='push master branch to given git server URL')
     sub_parser.add_argument('git_url',
-            help='URL of git repo, eg: https://github.com/benhoyt/pygit.git')
+            help='URL of git repo, eg: https://github.com/yashrajtarte/git-snap')
     sub_parser.add_argument('-p', '--password',
             help='password to use for authentication (uses GIT_PASSWORD '
                  'environment variable by default)')
